@@ -1,0 +1,18 @@
+[package]
+name = "bevy_mod_static_inventory"
+version = "0.1.0"
+edition = "2021"
+authors = ["SDesya74 <sdesya74@gmail.com>"]
+description = "Static inventory for Bevy"
+keywords = ["bevy", "static", "inventory", "ecs"]
+readme = "README.md"
+repository = "https://github.com/SDesya74/bevy_mod_static_inventory"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.11.0"
+dyn-clone = "1.0.13"
+dyn-eq = "0.1.3"
+intertrait = "0.2.2"
