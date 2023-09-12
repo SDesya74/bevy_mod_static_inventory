@@ -1,5 +1,13 @@
 # Static Inventory
 
+[![Crates.io](https://img.shields.io/crates/v/bevy_mod_static_inventory
+)](https://crates.io/crates/bevy_mod_static_inventory
+)
+![Crates.io](https://img.shields.io/crates/l/bevy_mod_static_inventory
+)
+![docs.rs](https://img.shields.io/docsrs/bevy_mod_static_inventory
+)
+
 Proof of concept of static inventory for [Bevy](https://bevyengine.org/). A static inventory means that each item type is a `struct` (or `enum`) with a specific set of traits. The advantages of this approach are excellent editor support and validity checking of some actions at compile time, e.g. you can't put sticks and apples in the same item stack.
 
 It also opens up possibilities for partial support for inventory requests in ECS. For example, it is possible to call the system only for entities that have an apple in their inventory using Bevy's [query filters](https://docs.rs/bevy/latest/bevy/ecs/prelude/struct.Query.html#query-filtering).
